@@ -30,7 +30,7 @@ class AddTimeDialog(QDialog):
 
         for label_text, max_value in labels_and_ranges:
             self.add_spinbox_row(label_text, max_value)
-
+#
     def add_spinbox_row(self, label_text, max_value):
         row_layout = QHBoxLayout()
         row_layout.addWidget(QLabel(label_text))
